@@ -118,6 +118,25 @@ button {
 
 
 
+/*Quote*/
+
+.quote {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e7eb;
+	padding: 5% 33%;
+}
+
+.quote #quote {
+	margin-bottom: 16px;
+}
+
+.quote #quoter {
+	align-self: flex-end;
+}
+
+
 /*Footer*/
 
 .footer {
