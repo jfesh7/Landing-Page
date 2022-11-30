@@ -111,6 +111,7 @@ a {
 
 .random-display {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 32px;
 }
@@ -169,6 +170,7 @@ a {
 
 .call-box {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	background-color: #3882f6;
