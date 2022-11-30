@@ -12,6 +12,7 @@ body {
 button {
 	color: #f9faf8;
 	background-color: #3882f6;
+	padding: 8px 16px;
 }
 
 
@@ -125,16 +126,53 @@ button {
 	justify-content: center;
 	align-items: center;
 	background-color: #e5e7eb;
-	padding: 5% 33%;
+	padding: 100px 20%;
 }
 
 .quote #quote {
 	margin-bottom: 16px;
+	font-size: 32px;
+	font-weight: light;
+	font-style: italic;
 }
 
 .quote #quoter {
 	align-self: flex-end;
 }
+
+
+
+/*Call to action*/
+
+.content.call {
+	padding: 48px;
+	color: #e5e7eb;
+}
+
+.call-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3882f6;
+	padding: 32px 48px;
+	gap: 48px;
+}
+
+.call-box #call-heading {
+	font-size: 24px;
+	font-weight: bold;
+	color: #f9faf8;
+	margin-bottom: 16px;
+}
+
+.call-box #call-text {
+
+}
+
+.call-box button {
+	border: 1px solid #f9faf8;
+}
+
 
 
 /*Footer*/
